@@ -1,0 +1,2427 @@
+.padding {
+    padding: 80px 0;
+}
+.parallax-bg-4 {
+    background-image: url(../img/rimpido3.jpg);
+    /*background-color: #fff;*/
+}
+.parallax-bg-5 {
+   
+    background-color: rgb(28,18,18);
+}
+.parallax-bg-style {
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1
+}
+#imported_container
+{
+    width: 70%;
+}
+
+#sitemapcatalog h2 {
+    display: block;
+     padding: 0 0 35px 0;
+    margin: 0 0 40px 0;
+    position: relative;
+    text-align: center;
+    display: block;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2.8rem;
+    line-height: 1.375;
+    color: white;
+    background-color: black;
+    background:url(../img/rimpidologo.png) no-repeat  50% 60px;
+
+}
+
+
+/* IMPLEMENTATION */
+
+
+#implementation h2 {
+    display: block;
+     padding: 0 0 35px 0;
+    margin: 0 0 40px 0;
+    position: relative;
+    text-align: center;
+    display: block;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2.8rem;
+    line-height: 1.375;
+    color: white;
+    background-color: black;
+    background:url(../img/rimpidologo.png) no-repeat  50% 60px;
+
+}
+#implementation_header h2
+{
+    display: block;
+     padding: 0 0 35px 0;
+    margin: 0 0 40px 0;
+    position: relative;
+    text-align: center;
+    display: block;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2.8rem;
+    line-height: 1.375;
+    color: #151515;
+    background:url(../img/rimpidologo.png) no-repeat  50% 60px;
+}
+
+.rimpido-implementation-entry-head .date, .rimpido-implementation-entry-head .cetagory {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    position: relative;
+}
+.rimpido-implementation-entry-head h3 {
+    margin:10px 0 0 0;
+    padding:0;
+}
+.rimpido-implementation-entry-head .date:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom:-9px;
+    width: 20px;
+    height: 3px;
+}
+.rimpido-implementation-content p {
+    margin:0;
+    padding:0;
+    line-height:20px
+}
+.rimpido-implementation-content {
+    font-size: 14px;
+}
+.load-more {
+    display:block;
+    text-align: center;
+    margin-top: 70px;
+}
+.btn-loadmore {
+    border: 1px solid #f2f2f2;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 600;
+    ©padding: 15px 125px;
+    text-transform: uppercase;
+}
+.btn-loadmore:hover {
+    color:#fff;
+}
+.rimpido-implementation-entry-head .date, .rimpido-implementation-entry-head .cetagory {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom:20px;
+    position: relative;
+    text-transform: uppercase;
+}
+#implementation {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/rimpido4.jpg);
+    background-position: center;
+    background-color: rgb(28,18,18);
+    padding:90px 0 100px 0;
+}
+
+#implementation p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #2c2c2c;
+    font-weight: 500;
+}
+
+
+
+#what-we-do{
+    background:#ffffff;
+    opacity: 0.9;
+    border-radius: 80px;
+}
+#what-we-do .card{
+    padding: 1rem!important;
+    border: none;
+    margin-bottom:1rem;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#what-we-do .card:hover{
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block{
+    padding-left: 50px;
+    position: relative;
+}
+#what-we-do .card .card-block a{
+    color: #007b5e !important;
+    font-weight:700;
+    text-decoration:none;
+}
+#what-we-do .card .card-block a i{
+    display:none;
+    
+}
+#what-we-do .card:hover .card-block a i{
+    display:inline-block;
+    font-weight:700;
+    
+}
+#what-we-do .card .card-block:before{
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #ff8c00;
+    left: 0;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#what-we-do .card .block-1:before{
+    content: "\f0e7";
+}
+#what-we-do .card .block-2:before{
+    content: "\f0eb";
+}
+#what-we-do .card .block-3:before{
+    content: "\f00c";
+}
+#what-we-do .card .block-4:before{
+    content: "\f209";
+}
+#what-we-do .card .block-5:before{
+    content: "\f0a1";
+}
+#what-we-do .card .block-6:before{
+    content: "\f218";
+}
+#what-we-do .card:hover .card-block:before{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);  
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#what-we-do .card-text, #what-we-do .h2
+{
+    color: #b66400;
+    margin-bottom: 0;
+}
+#what-we-do .card-title
+{
+    text-align: center;
+    color:#757371;
+}
+#what-we-do li
+{   
+    color:#757371;
+    font-size: 14px;
+}
+#what-we-do-heading
+{
+    font-weight: bold;
+}
+.implementation_heading1
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 30px;
+    color: #eb8d1a;
+}
+
+
+/*************SUPPORT*********
+*****************************
+*****************************/
+
+
+#support h2
+{
+    display: block;
+     padding: 0 0 35px 0;
+
+    position: relative;
+    text-align: center;
+    display: block;
+    font-size: 2.8rem;
+    line-height: 1.375;
+    color: #151515;
+    background:url(../img/rimpidologo.png) no-repeat  50% 60px;
+    color: white;
+}
+
+.rimpido-support-entry-head .date, .rimpido-support-entry-head .cetagory {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    position: relative;
+}
+.rimpido-support-entry-head h3 {
+    margin:10px 0 0 0;
+    padding:0;
+}
+.rimpido-support-entry-head .date:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom:-9px;
+    width: 20px;
+    height: 3px;
+}
+.rimpido-support-content p {
+    margin:0;
+    padding:0;
+    line-height:20px
+}
+.rimpido-support-content {
+    font-size: 14px;
+}
+#support {
+    margin-bottom: 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/rimpido1.jpg);
+    background-position: center;
+    background-color: rgb(28,18,18);
+    padding:90px 0 100px 0;
+}
+
+}
+.support-style:after {
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+#support p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 500;
+    text-align: left;
+    padding-left: : 5%;
+    padding-right: 5%;
+}
+
+/*************SUPPORT*********
+*****************************
+*****************************/
+
+
+.supportcontent  {
+    color: #000;
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 80px;
+    padding: 50px;
+background-color: white;
+    opacity: 0.9;
+
+
+
+    
+    }
+    
+.supportcontent img {
+    
+    float: center;
+    width: 400px;
+    height: 400px; 
+    margin-left: 32%;
+    margin-bottom: 2%;
+    margin-top: 2%
+    }
+    
+.supportcontent ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 1%;
+    width: 100%;
+    float: center; 
+    clear: right;
+    margin-bottom: 0;
+    }
+    .supportcontent li
+    {
+        color: #000;
+        list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png'); 
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.8;
+    }
+
+    
+
+    
+.supportcontent p {
+    }
+.main-container{
+    margin-left: 10%;
+    width: 100px;
+
+
+    }.supportcontent h3{
+    margin-bottom: 5%;
+    color: #ffbc3e;
+    font-size: 30px;
+    margin-top: 0;
+
+    }
+
+/*************PHRASE CATALOG*********
+*****************************
+*****************************/
+
+#phrasecatalog
+{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/rimpido4.jpg);
+    background-position: center;
+    background-color: rgb(28,18,18);
+    padding:90px 0 100px 0;
+}
+
+
+#phrasecatalog h2
+{
+    display: block;
+     padding: 0 0 35px 0;
+
+    position: relative;
+    text-align: center;
+    display: block;
+    font-size: 2.8rem;
+    line-height: 1.375;
+    color: #151515;
+    background:url(../img/rimpidologo.png) no-repeat  50% 60px;
+    color: white;
+}
+
+.phrase-style:after {
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+#phrase p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 500;
+    text-align: left;
+    padding-left: : 5%;
+    padding-right: 5%;
+}
+
+
+
+#phrasecontent  {
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 80px;
+    padding: 50px;
+    background-color: white;
+    opacity: 0.9;
+    }
+
+#phrasecatalog h3
+ {
+    font-size: 30px;
+    font-weight: bold;
+    color: #e37c00;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    text-align: center;
+ }  
+  
+    
+.phrasecontent img {
+    
+    float: center;
+    width: 400px;
+    height: 400px; 
+    margin-left: 32%;
+    margin-bottom: 2%;
+    margin-top: 2%
+    }
+
+.phrasecontentp
+{
+    text-align: left;
+    padding: 5%;
+    color: #4a4947;
+}    
+    
+.phrasecontentp ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 1%;
+    width: 100%;
+    float: center; 
+    clear: right;
+    }
+    .phrasecontentp li
+    {
+        color: #4a4947;
+        list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png'); 
+        text-align: left;
+        margin-left: 5%;
+    }
+
+.phrasecontentp a
+{
+    color: #e0953b;
+}
+.phrasecontentp a:hover
+{
+    color: blue;
+}
+
+    
+
+    
+.phrasecontent p {
+    }
+.main-container{
+    margin-left: 10%;
+    width: 100px;
+
+
+    }.phrasecontent h3{
+    margin-bottom: 5%;
+    color: #ffbc3e;
+    font-size: 30px;
+
+    }
+
+    /***********  MODAL   **************/
+
+ /* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modalShowDetail {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 99999; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 50%; /* Full width */
+  height: 80%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+   background:black;
+   opacity: 0.9; /* Black w/ opacity */
+   margin-left: 25%;
+   margin-top: 5%;
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.closeImg {
+  position: absolute;
+  top: 100px;
+  right: 200px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  color: black;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+
+/*************TRAINING*********
+*****************************
+*****************************/
+
+#trainingcatalog h2
+{
+    display: block;
+     padding: 0 0 35px 0;
+
+    position: relative;
+    text-align: center;
+    display: block;
+    font-size: 2.8rem;
+    line-height: 1.375;
+    color: #151515;
+    background:url(../img/rimpidologo.png) no-repeat  50% 60px;
+    color: white;
+}
+
+#trainingcatalog {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/rimpido3.jpg);
+    background-position: center;
+    background-color: rgb(28,18,18);
+    padding:90px 0 100px 0;
+     background-color: white;
+   
+
+   
+
+   
+
+}
+.training-style:after {
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+#training p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 500;
+    text-align: left;
+    padding-left: : 5%;
+    padding-right: 5%;
+}
+
+
+
+#trainingcontent  {
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 80px;
+    padding: 50px;
+    background-color: white;
+    opacity: 0.8;
+    
+    }
+
+h3
+ {
+    font-size: 30px;
+    font-weight: bold;
+    color: #e37c00;
+    margin-bottom: 5%;
+    margin-top: 5%;
+ }  
+  
+    
+.trainingcontent img {
+    
+    float: center;
+    width: 400px;
+    height: 400px; 
+    margin-left: 32%;
+    margin-bottom: 2%;
+    margin-top: 2%
+    }
+
+.trainingcontentp
+{
+    text-align: left;
+    padding-left: : 5%;
+    padding-right: 5%;
+    color: #4a4947;
+}    
+    
+.trainingcontentp ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 1%;
+    width: 100%;
+    float: center; 
+    clear: right;
+    line-height: normal;
+    }
+    .trainingcontentp li
+    {
+        color: #4a4947;
+        list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png'); 
+        text-align: left;
+        margin-left: 5%;
+        line-height: 2;
+    }
+
+.trainingcontentp a
+{
+    color: #e0953b;
+}
+.trainingcontentp a:hover
+{
+    color: blue;
+}
+
+    
+
+    
+.trainingcontent p {
+    }
+.main-container{
+    margin-left: 10%;
+    width: 100px;
+
+
+    }.trainingcontent h3{
+    margin-bottom: 5%;
+    color: #ffbc3e;
+    font-size: 30px;
+
+    }
+
+
+/*************EHS_TOOLS*********
+*****************************
+*****************************/
+
+#EHStoolscatalog h2
+{
+    display: block;
+     padding: 0 0 35px 0;
+
+    position: relative;
+    text-align: center;
+    display: block;
+    font-size: 2.8rem;
+    line-height: 1.375;
+    color: #151515;
+    background:url(../img/rimpidologo.png) no-repeat  50% 60px;
+    color: white;
+}
+
+#EHStoolscatalog {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/rimpido2.jpg);
+    background-position: center;
+    background-color: rgb(28,18,18);
+    padding:90px 0 100px 0;
+}
+.training-style:after {
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+#EHStoolscatalog p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    line-height: 1.8;
+    font-weight: 500;
+    text-align: left;
+    padding-left: : 5%;
+    padding-right: 5%;
+}
+
+
+
+#EHStoolscontent  {
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 80px;
+    padding: 50px;
+    background-color: white;
+    opacity: 0.8;
+    
+    }
+
+h3
+ {
+    font-size: 25px;
+    font-weight: bold;
+    color: #e37c00;
+    margin-bottom: 5%;
+    margin-top: 5%;
+ }  
+  
+    
+.EHStoolscontent img {
+    
+    float: center;
+    width: 400px;
+    height: 400px; 
+    margin-left: 32%;
+    margin-bottom: 2%;
+    margin-top: 2%
+    }
+
+.EHStoolscontentp
+{
+    text-align: left;
+    padding-left: : 5%;
+    padding-right: 5%;
+    color: #4a4947;
+}    
+    
+.EHStoolscontentp ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 1%;
+    width: 100%;
+    float: center; 
+    clear: right;
+    }
+    .EHStoolscontentp li
+    {
+        color: #4a4947;
+        list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png'); 
+        text-align: left;
+        margin-left: 5%;
+    }
+
+.EHStoolscontentp a
+{
+    color: #e0953b;
+}
+.EHStoolscontentp a:hover
+{
+    color: blue;
+}
+
+    
+
+    
+
+.main-container{
+    margin-left: 10%;
+    width: 100px;
+
+
+    }.trainingcontent h3{
+    margin-bottom: 5%;
+    color: #ffbc3e;
+    font-size: 30px;
+
+
+}
+/******EHS TOOLS USES TEMPLATE*********
+/**************************************
+/**************************************/
+/* EHS tools */
+#ehstools_section{
+     background:#ffffff;
+    opacity: 0.9;
+}
+#ehstools_section p2
+{
+    font-size: 20px;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.margin_top {
+    margin-top: 30px;
+}
+.maine_box {
+    position: relative;
+    overflow: hidden;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.price_box {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    padding: 6px 10px;
+    color: #fff;
+    font-size: 16px;
+}
+.green_bg {
+    background: #2adc71;
+}
+.orgen_bg {
+    background: #ffa500;
+}
+.maine_box .items_picher img {
+    width: 800px;
+}
+
+/* BOX ADJUSTHERE */
+
+.box_detail {
+    width: 100%;
+    background: rgba(34, 34, 34, 0.69);
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    z-index: 9;
+    bottom: 0;
+    transition: all 0.3s;
+    padding: 13px 15px 15px;
+    max-height: 150px;
+}
+.box_detail h3 {
+    color: #fff;
+    margin: 0px;
+    margin-top: 9px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    padding:2%;
+}
+.maine_box:hover .box_detail{
+    max-height: 450px;
+}
+.box_detail a, .box_detail p {
+    color: #fff;
+    padding: 2%;
+    font-size: 13px;
+}
+.maine_box:hover .box_detail a, .maine_box:hover .box_detail p {
+    display: block;
+}
+.use_detail .event_detail {
+    display: inline-block;
+    position: relative;
+}
+.use_detail {
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    right: 15px;
+    top: -30px;
+}
+
+.event_detail:hover .event_hover {
+    opacity: 1;
+    top: -55px;
+}
+.use_detail .event_detail {
+    border-radius: 50%;
+    border: 2px solid #ffa500;
+    width: 50px;
+    height: 50px;
+    background: #FFA500;
+    line-height: 45px;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .margin_reponsive {
+        margin-top: 30px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .box_detail {
+        bottom: -130px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .margin_bott {
+        margin-bottom: 30px;
+    }
+}
+
+
+/***********  MODAL   **************/
+
+ /* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modalShowDetail {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 99999; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 50%; /* Full width */
+  height: 80%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+   background:black;
+   opacity: 0.9; /* Black w/ opacity */
+   margin-left: 25%;
+   margin-top: 5%;
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 50%;
+  max-width: 900px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+#ehstools_section .caption{
+    background:#ffffff;
+    opacity: 0.9;
+
+
+}
+   
+
+
+
+
+
+/*********EHS MANUAL**********/
+/*****************************/
+/*****************************/
+/*****************************/
+#ehsmanual
+{
+     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/rimpido3.jpg);
+    background-position: center;
+    background-color: rgb(28,18,18);
+    padding:90px 0 100px 0;
+}
+#ehsmanual h2
+{
+    display: block;
+     padding: 0 0 35px 0;
+
+    position: relative;
+    text-align: center;
+    display: block;
+    font-size: 2.8rem;
+    line-height: 1.375;
+    color: #151515;
+    background:url(../img/rimpidologo.png) no-repeat  50% 60px;
+    color: white;
+}
+
+
+#ehsmanual_content{
+    background:#ffffff;
+    opacity: 0.9;
+    border-radius: 80px;
+}
+#ehsmanual_content .card{
+    padding: 1rem!important;
+    border: none;
+    margin-bottom:1rem;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#ehsmanual_content .card:hover{
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#ehsmanual_content .card .card-block{
+    padding-left: 50px;
+    position: relative;
+}
+#ehsmanual_content .card .card-block a{
+    color: #007b5e !important;
+    font-weight:700;
+    text-decoration:none;
+}
+#ehsmanual_content .card .card-block a i{
+    display:none;
+    
+}
+#ehsmanual_content .card:hover .card-block a i{
+    display:inline-block;
+    font-weight:700;
+    
+}
+#ehsmanual_content .card .card-block:before{
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #ff8c00;
+    left: 0;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#ehsmanual_content .card .block-1:before{
+    content: "\f0e7";
+}
+#ehsmanual_content .card .block-2:before{
+    content: "\f0eb";
+}
+#ehsmanual_content .card .block-3:before{
+    content: "\f00c";
+}
+#ehsmanual_content .card .block-4:before{
+    content: "\f209";
+}
+#ehsmanual_content .card .block-5:before{
+    content: "\f0a1";
+}
+#ehsmanual_content .card .block-6:before{
+    content: "\f218";
+}
+#ehsmanual_content .card:hover .card-block:before{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);  
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#ehsmanual_content .card-text, #ehsmanual_content .h2
+{
+    color: #e98001;
+}
+#ehsmanual_content .card-title
+{
+    color:#757371;
+    font-size: 25px;
+    color:#e98001;  
+ font-weight: bold;  
+ text-align: center;
+ margin: 5%;
+}
+#ehsmanual_content .row
+{
+    position: center;
+}
+#ehsmanual_content .ehscontentp
+{
+    padding: 5%;
+    color:#242322;
+}#ehsmanual_content ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 1%;
+    width: 100%;
+    float: center; 
+    clear: right;
+    font-size: 20px;
+    }
+#ehsmanual_content h2
+{
+ color:#e98001;  
+ font-weight: bold;  
+}
+
+/*********EHS MANUAL**********/
+/*****************************/
+/*****************************/
+/*****************************/
+
+#ehsmanual_content{
+    background:#ffffff;
+    opacity: 0.9;
+}
+#ehsmanual_content .card{
+    padding: 1rem!important;
+    border: none;
+    margin-bottom:1rem;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#ehsmanual_content .card:hover{
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#ehsmanual_content .card .card-block{
+    padding-left: 50px;
+    position: relative;
+}
+#ehsmanual_content .card .card-block a{
+    color: #007b5e !important;
+    font-weight:700;
+    text-decoration:none;
+}
+#ehsmanual_content .card .card-block a i{
+    display:none;
+    
+}
+#ehsmanual_content .card:hover .card-block a i{
+    display:inline-block;
+    font-weight:700;
+    
+}
+#ehsmanual_content .card .card-block:before{
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #ff8c00;
+    left: 0;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#ehsmanual_content .card .block-1:before{
+    content: "\f0e7";
+}
+#ehsmanual_content .card .block-2:before{
+    content: "\f0eb";
+}
+#ehsmanual_content .card .block-3:before{
+    content: "\f00c";
+}
+#ehsmanual_content .card .block-4:before{
+    content: "\f209";
+}
+#ehsmanual_content .card .block-5:before{
+    content: "\f0a1";
+}
+#ehsmanual_content .card .block-6:before{
+    content: "\f218";
+}
+#ehsmanual_content .card:hover .card-block:before{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);  
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#ehsmanual_content .card-text, #ehsmanual_content .h2
+{
+    color: #e98001;
+}
+#ehsmanual_content .card-title
+{
+    color:#757371;
+    font-size: 25px;
+    color:#e98001;  
+ font-weight: bold;  
+}
+#ehsmanual_content .row
+{
+    position: center;
+}
+#ehsmanual_content .ehscontentp
+{
+    padding: 5%;
+    color:#242322;
+}#ehsmanual_content li {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 3%;
+    width: 100%;
+    float: center; 
+    clear: right;
+    font-size: 15px;
+    }
+#ehsmanual_content h2
+{
+ color:#e98001;  
+ font-weight: bold;  
+}
+#ehsmanual_content .ehscontentp
+{
+    text-align: left;
+    padding: 6%;
+    color: #2f353e;
+}
+#ehsmanual_content a
+{
+    color:#e98001;
+}
+#ehsmanual_content a:hover
+{
+    color:#306dd2;
+}
+
+/*********CEO**********/
+/*****************************/
+/*****************************/
+/*****************************/
+
+#CEO {
+    background-position: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/rimpido3.jpg);
+    background-position: center;
+    background-color: rgb(28,18,18);
+    padding:90px 0 100px 0;
+
+}
+#CEO h2
+{
+
+    display: block;
+     padding: 0 0 35px 0;
+    position: relative;
+    text-align: center;
+    display: block;
+    font-size: 2.8rem;
+    line-height: 1.375;
+    color: #151515;
+    background:url(../img/rimpidologo.png) no-repeat  50% 60px;
+    color: white;
+}
+
+
+
+
+#CEO_content{
+    background:#ffffff;
+    opacity: 0.9;
+    border-radius:80px;
+}
+#CEO_icons
+{
+    height: 35%;
+    width: 35%; 
+
+}
+#CEO_content ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    width: 100%;
+    float: center; 
+    clear: right;
+    font-size: 20px;
+    margin-top: 0;
+
+    }
+#CEO_content h3
+{
+ color:#e98001;  
+ font-weight: bold; 
+ background: 0;
+ font-size: 20px;
+ margin-bottom: 0;
+ text-align: center;
+}
+#CEO_content p{
+    margin-right: 3%;
+    color: #565350;
+    margin-top: 10%;
+    text-align: justify;
+    padding: 5%;
+}
+#CEO_content .ceoprofile
+{
+
+}#CEO_content .ceop
+{
+    width: 70%;
+}
+#CEO_content a
+{
+    color: #dd6000;
+}
+#CEO_content a:hover
+{
+    color: #4170b0;
+}
+
+
+
+body {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background:#fbfbfb;
+}
+#CEO_content .card {
+    
+    margin-bottom: 5%;
+    /*transform:translate(-50%,-50%);*/
+    width:300px;
+    min-height:400px;
+    background:#fff;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    border-radius:10px;
+    transition:0.5s;
+    margin-top: 20%;
+}
+
+#CEO_content .ceo_titlep{
+
+    color: #565350;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.card:hover {
+    box-shadow:0 30px 70px rgba(0,0,0,.2);
+}
+.card .box {
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    width:100%;
+}
+.card .box .img {
+    width:120px;
+    height:120px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+}
+.card .box .img img {
+    width:100%;
+    height:100%;
+}
+.card .box h3 {
+    font-size:20px;
+    color:#262626;
+    margin:20px auto;
+}
+.card .box h3 span {
+    font-size:14px;
+    background:#ed6b1f;
+    color:#fff;
+    display:inline-block;
+    border-radius:15px;
+    height:27px;
+    width:80px;
+    margin: 0;
+    text-align: center;
+}
+.card .box p {
+    color:#262626;
+}
+.card .box span {
+    
+}
+.card .box ul {
+    margin:0;
+    padding:0;
+    margin-left: 25%;
+}
+.card .box ul li {
+    list-style:none;
+    float:left;
+}
+.card .box ul li a {
+    display:block;
+    color:#aaa;
+    margin:0 10px;
+    font-size:20px;
+    transition:0.5s;
+    text-align:center;
+}
+.card .box ul li:hover a {
+    color:#ed6b1f;
+    transform:rotateY(360deg);
+}
+
+/*************CAREER*********
+*****************************
+*****************************/
+
+
+.careercontent  {
+    color: white;
+    background: rgba(0, 0, 0, 0.60);
+    border-radius: 20px;
+    padding: 10%;
+
+    
+    }
+    
+.careercontent img {
+    
+    float: center;
+    width: 400px;
+    height: 400px; 
+    margin-left: 32%;
+    margin-bottom: 2%;
+    margin-top: 2%
+    }
+    
+.careercontent ul {
+    
+    margin-left: 1%;
+    width: 100%;
+    float: center; 
+    clear: right;
+    text-align: left;
+    }
+    .careercontent li{
+        list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+        padding: 1%;
+        font-size: 18px;
+        margin-left: 10%;
+
+    }
+    
+
+    
+.careercontent p {
+    }
+.main-container{
+    margin-left: 10%;
+    width: 100px;
+
+
+    }.careercontent h2{
+        margin-bottom: 5%;
+         color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+
+    }
+#career {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/rimpido2.jpg);
+    background-position: center;
+    background-color: rgb(28,18,18);
+    padding:90px 0 100px 0;
+    margin-bottom: 0;
+}
+#career h3
+{
+    color: #ffa200;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5%;
+}
+#career h2
+{
+    display: block;
+     padding: 0 0 35px 0;
+
+    position: relative;
+    text-align: center;
+    display: block;
+    font-size: 2.8rem;
+    line-height: 1.375;
+    color: #151515;
+    background:url(../img/rimpidologo.png) no-repeat  50% 60px;
+    color: white;
+}
+#career p
+{
+    margin-top: 5%;
+    text-align: justify;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+#career .career_btn_apply{
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 3px;
+    width: 10%;
+    padding: 3px;
+    margin-bottom: 2%;
+}
+
+
+
+#career .career_btn_apply:hover{
+    background: #a07d0e;
+    border-color: #a07d0e;
+
+}
+
+/**********PRIVACY*********
+*****************************
+*****************************/
+
+#privacycatalog h2
+{
+    display: block;
+     padding: 0 0 35px 0;
+
+    position: relative;
+    text-align: center;
+    display: block;
+    font-size: 2.8rem;
+    line-height: 1.375;
+    color: #151515;
+    background:url(../img/rimpidologo.png) no-repeat  50% 60px;
+    color: white;
+}
+
+#privacycatalog {
+    background-position: center;
+
+}
+.privacy-style:after {
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+#privacy p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 500;
+    text-align: left;
+    padding-left: : 5%;
+    padding-right: 5%;
+}
+
+
+
+#privacycontent  {
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 80px;
+    padding: 50px;
+    background-color: white;
+    opacity: 0.8;
+    
+    }
+
+h3
+ {
+    font-size: 30px;
+    font-weight: bold;
+    color: #e37c00;
+    margin-top: 5%;
+ }  
+  
+    
+.privacycontent img {
+    
+    float: center;
+    width: 400px;
+    height: 400px; 
+    margin-left: 32%;
+    margin-bottom: 2%;
+    margin-top: 2%
+    }
+
+.privacycontentp
+{
+    text-align: left;
+    padding-left: : 5%;
+    padding-right: 5%;
+    color: #4a4947;
+}    
+    
+.privacycontentp ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 1%;
+    width: 100%;
+    float: center; 
+    clear: right;
+    }
+    .privacycontentp li
+    {
+        color: #4a4947;
+        list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png'); 
+        text-align: left;
+        margin-left: 5%;
+    }
+
+.privacycontentp a
+{
+    color: #e0953b;
+}
+.privacycontentp a:hover
+{
+    color: blue;
+}
+
+    
+
+    
+.privacycontent p {
+    }
+.main-container{
+    margin-left: 10%;
+    width: 100px;
+
+
+    }.privacycontent h3{
+    margin-bottom: 5%;
+    color: #ffbc3e;
+    font-size: 30px;
+
+    }
+
+/**********PRIVACY*********
+*****************************
+*****************************/
+
+#privacycatalog
+{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/rimpido2.jpg);
+    background-position: center;
+    background-color: rgb(28,18,18);
+    padding:90px 0 100px 0;
+}
+
+#privacycatalog h2
+{
+    display: block;
+     padding: 0 0 35px 0;
+
+    position: relative;
+    text-align: center;
+    display: block;
+    font-size: 2.8rem;
+    line-height: 1.375;
+    color: #151515;
+    background:url(../img/rimpidologo.png) no-repeat  50% 60px;
+    color: white;
+}
+
+#privacycatalog {
+    background-position: center;
+
+}
+.privacy-style:after {
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+#privacy p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 500;
+    text-align: left;
+    padding-left: : 5%;
+    padding-right: 5%;
+}
+
+
+
+#privacycontent  {
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 80px;
+    padding: 50px;
+    background-color: white;
+    opacity: 0.8;
+    
+    }
+
+h3
+ {
+    font-size: 30px;
+    font-weight: bold;
+    color: #e37c00;
+    margin-top: 5%;
+ }  
+  
+    
+.privacycontent img {
+    
+    float: center;
+    width: 400px;
+    height: 400px; 
+    margin-left: 32%;
+    margin-bottom: 2%;
+    margin-top: 2%
+    }
+
+.privacycontentp
+{
+    text-align: left;
+    padding-left: : 5%;
+    padding-right: 5%;
+    color: #4a4947;
+}    
+    
+.privacycontentp ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 1%;
+    width: 100%;
+    float: center; 
+    clear: right;
+    }
+    .privacycontentp li
+    {
+        color: #4a4947;
+        list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png'); 
+        text-align: left;
+        margin-left: 5%;
+    }
+
+.privacycontentp a
+{
+    color: #e0953b;
+}
+.privacycontentp a:hover
+{
+    color: blue;
+}
+
+    
+
+    
+.privacycontent p {
+    }
+.main-container{
+    margin-left: 10%;
+    width: 100px;
+
+
+    }.privacycontent h3{
+    margin-bottom: 5%;
+    color: #ffbc3e;
+    font-size: 30px;
+
+    }
+
+
+
+/********* SITEMAP **********/
+/******************************/
+/******************************/
+
+
+#sitemapcatalog {
+    background-position: center;
+}
+#sitemapcontent  {
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+    padding: 50px;
+    background-color: white;
+    opacity: 0.8;
+    
+    }
+#sitemapcontent .li_title {
+    list-style-image: url('http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/bullet-world-icon.png');
+    width: 100%;
+    font-size: 15px;
+    margin-left: 3%;
+    font-weight: bold;
+    text-align: left;
+    }
+#sitemapcontent .li_content {
+    list-style-image: url('http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/bullet-world-icon.png');
+    margin-left: 5%;
+    text-align: left;
+    }
+#sitemapcontent a
+{
+    color: #ea7125;
+}
+#sitemapcontent a:hover
+{
+    color: #4170b0;
+}
+
+
+h3
+ {
+    font-size: 30px;
+    font-weight: bold;
+    color: #e37c00;
+    margin-top: 2%;
+    text-align: left;
+    margin-bottom: 2%;
+ } 
+
+
+
+#sitemap_content{
+    background:#ffffff;
+    opacity: 0.9;
+}
+#sitemap_content .card{
+    padding: 1rem!important;
+    border: none;
+    margin-bottom:1rem;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+
+}
+#sitemap_content .card:hover{
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#sitemap_content .card .card-block{
+    padding-left: 50px;
+    position: relative;
+}
+#sitemap_content .card .card-block a{
+    color: #007b5e !important;
+    font-weight:700;
+    text-decoration:none;
+}
+#sitemap_content .card .card-block a i{
+    display:none;
+    
+}
+#sitemap_content .card:hover .card-block a i{
+    display:inline-block;
+    font-weight:700;
+    
+}
+#sitemap_content .card .card-block:before{
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #ff8c00;
+    left: 0;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#sitemap_content .card .block-1:before{
+    content: "\f0e7";
+}
+#sitemap_content .card .block-2:before{
+    content: "\f0eb";
+}
+#sitemap_content .card .block-3:before{
+    content: "\f00c";
+}
+#sitemap_content .card .block-4:before{
+    content: "\f209";
+}
+#sitemap_content .card .block-5:before{
+    content: "\f0a1";
+}
+#sitemap_content .card .block-6:before{
+    content: "\f218";
+}
+#sitemap_content .card:hover .card-block:before{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);  
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#sitemap_content .card-text, #sitemap_content .h2
+{
+    color: #e98001;
+}
+#sitemap_content .card-title
+{
+    color:#757371;
+    font-size: 40px;
+    color:#e98001;  
+ font-weight: bold;  
+}
+#sitemap_content .row
+{
+    position: center;
+}
+#sitemap_content .contentp
+{
+    padding: 5%;
+    color:#242322;
+}#sitemap_content .li_title {
+    list-style-image: url('http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/bullet-world-icon.png');
+    width: 100%;
+    font-size: 15px;
+    margin-left: 3%;
+    font-weight: bold;
+    }
+#sitemap_content .li_content {
+    list-style-image: url('http://icons.iconarchive.com/icons/fatcow/farm-fresh/24/bullet-world-icon.png');
+    margin-left: 5%;
+    }
+
+#sitemap_content h2
+{
+ color:#e98001;  
+ font-weight: bold;  
+}
+
+/*************IMPRINT*********
+*****************************
+*****************************/
+
+
+#imprint h2
+{
+    display: block;
+     padding: 0 0 35px 0;
+
+    position: relative;
+    text-align: center;
+    display: block;
+    font-size: 2.8rem;
+    line-height: 1.375;
+    color: #151515;
+    background:url(../img/rimpidologo.png) no-repeat  50% 60px;
+    color: white;
+}
+#imprint {
+
+     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/rimpido2.jpg);
+    background-position: center;
+    background-color: rgb(28,18,18);
+    padding:90px 0 100px 0;
+
+}
+#imprint p{
+color: #fff;
+font-size: 18px;
+text-align: justify;
+padding-right: 15%;
+}
+#imprint h4{
+color: orange;
+font-size: 40px;
+text-align: left; 
+margin-bottom: 5%;
+}
+.imprint .parallax-bg-style:after {
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    
+}
+#imprint a
+{
+    color: #ffa200;
+}
+#imprint a:hover
+{
+    color: #4170b0;
+}
+
+/*********SUBSTANCE VOLUME TRACKING********/
+
+
+
+#svtcatalog h2
+{
+    display: block;
+     padding: 0 0 35px 0;
+
+    position: relative;
+    text-align: center;
+    display: block;
+    font-size: 2.8rem;
+    line-height: 1.375;
+    color: #151515;
+    background:url(../img/rimpidologo.png) no-repeat  50% 60px;
+    color: white;
+}
+
+#svtcatalog {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/rimpido3.jpg);
+    background-position: center;
+    background-color: rgb(28,18,18);
+    padding:90px 0 100px 0;
+   
+
+}
+.svt-style:after {
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+#svt p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 500;
+    text-align: left;
+    padding-left: : 5%;
+    padding-right: 5%;
+}
+
+
+
+#svtcontent  {
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 80px;
+    padding: 50px;
+    background-color: white;
+    opacity: 0.8;
+    
+    }
+
+h3
+ {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e37c00;
+    margin-bottom: 5%;
+    margin-top: 5%;
+ }  
+  
+    
+.svtcontent img {
+    
+    float: center;
+    width: 400px;
+    height: 400px; 
+    margin-left: 32%;
+    margin-bottom: 2%;
+    margin-top: 2%
+    }
+
+#svtcontentp
+{
+    text-align: left;
+    padding-left: : 5%;
+    padding-right: 5%;
+    color: #4a4947;
+} 
+
+#svtcatalog p
+{
+    text-align: justify;
+    padding-left: : 5%;
+    padding-right: 5%;
+    color: #4a4947;
+}   
+
+#svtcatalog a{
+    color: #bf650f;
+}
+#svtcatalog a:hover{
+    color:#126aad;
+}
+    
+.svtcontentp ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 1%;
+    width: 100%;
+    float: center; 
+    clear: right;
+    line-height: normal;
+    }
+    .svtcontentp li
+    {
+        color: #4a4947;
+        list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png'); 
+        text-align: left;
+        margin-left: 5%;
+        line-height: 2;
+    }
+
+.svtcontentp a
+{
+    color: #e0953b;
+}
+.svtcontentp a:hover
+{
+    color: blue;
+}
+
+    
+
+    
+.svtcontent p {
+    }
+.main-container{
+    margin-left: 10%;
+    width: 100px;
+
+
+    }.svtcontent h3{
+    margin-bottom: 5%;
+    color: #ffbc3e;
+    font-size: 30px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/********** MODAL (EHS_TOOLS******/
+/*********************************/
+/*********************************/
+#phrase-modal
+{
+    font-family: roboto;
+    text-align: justify;
+}
+
+#phrase-modal a
+{
+ font-weight: bold;
+ color: #ef8200;
+}
+#phrase-modal a:hover
+{
+    font-weight: bold;
+    color:#356bb6;
+}
+#phrase-modal h4
+{
+    font-weight: bold;
+      color: #ef8200;
+    size: 20px;
+}
+#phrase-modal .close
+{
+    color: black;
+}
+
+#recording-modal
+{
+    font-family: roboto;
+    text-align: justify;
+}
+#recording-modal a
+{
+ font-weight: bold;
+ color: #ef8200;
+}
+#recording-modal a:hover
+{
+    font-weight: bold;
+    color:#356bb6;
+}
+#recording-modal h4
+{
+    font-weight: bold;
+      color: #ef8200;
+    size: 20px;
+}
+#recording-modal .close
+{
+    color: black;
+}
+
+#recording-modal li
+{
+    list-style-image: url('../img/rimpido-icon.png');
+    margin-left: 5%;
+}
+
+
+#DYN-modal
+{
+    font-family: roboto;
+    text-align: justify;
+}
+
+#DYN-modal a
+{
+ font-weight: bold;
+ color: #ef8200;
+}
+#DYN-modal a:hover
+{
+    font-weight: bold;
+    color:#356bb6;
+}
+#DYN-modal h4
+{
+    font-weight: bold;
+      color: #ef8200;
+    size: 20px;
+}
+#DYN-modal .close
+{
+    color: black;
+}
+
+
+#DYNEXPERT-modal
+{
+    font-family: roboto;
+    text-align: justify;
+}
+
+#DYNEXPERT-modal a
+{
+ font-weight: bold;
+ color: #ef8200;
+}
+#DYNEXPERT-modal a:hover
+{
+    font-weight: bold;
+    color:#356bb6;
+}
+#DYNEXPERT-modal h4
+{
+    padding-left: : 5%;
+    padding-right: 5%;
+    font-weight: bold;
+      color: #ef8200;
+    size: 20px;
+    text-align: center;
+}
+#DYNEXPERT-modal .close
+{
+    color: black;
+}
+
+#DYNEXPERT-modal
+{
+    font-family: roboto;
+    text-align: justify;
+}
+
+#DYNEXPERT-modal a
+{
+ font-weight: bold;
+ color: #ef8200;
+}
+#DYNEXPERT-modal a:hover
+{
+    font-weight: bold;
+    color:#356bb6;
+}
+#DYNEXPERT-modal h4
+{
+    padding-left: : 5%;
+    padding-right: 5%;
+    font-weight: bold;
+      color: #ef8200;
+    size: 20px;
+    text-align: center;
+}
+#DYNEXPERT-modal .close
+{
+    color: black;
+}
+
+
+#training-modal
+{
+    font-family: roboto;
+    text-align: justify;
+}
+
+#training-modal a
+{
+ font-weight: bold;
+ color: #ef8200;
+}
+#training-modal a:hover
+{
+    font-weight: bold;
+    color:#356bb6;
+}
+#training-modal h4
+{
+    padding-left: : 5%;
+    padding-right: 5%;
+    font-weight: bold;
+      color: #ef8200;
+    size: 20px;
+    text-align: center;
+}
+#training-modal .close
+{
+    color: black;
+}
+
+
+#trainingvid-modal
+{
+    font-family: roboto;
+    text-align: justify;
+}
+
+#trainingvid-modal a
+{
+ font-weight: bold;
+ color: #ef8200;
+}
+#trainingvid-modal a:hover
+{
+    font-weight: bold;
+    color:#356bb6;
+}
+#trainingvid-modal h4
+{
+    padding-left: : 5%;
+    padding-right: 5%;
+    font-weight: bold;
+      color: #ef8200;
+    size: 20px;
+    text-align: center;
+}
+#trainingvid-modal .close
+{
+    color: black;
+}
+
+
+
+
+
+
+
+/*******MAIN MODAL*******/
+/************************/
+/************************/
+
+.EHS_modal-content {
+  margin: auto;
+  display: block;
+  width: 100%;
+  max-width: 2000px;
+  background-color: white;
+  opacity: 0.9;
+}

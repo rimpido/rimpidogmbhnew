@@ -1,0 +1,49 @@
+.rimpido-imprint {
+
+    padding: 88px 0 100px 0 !important;
+    background: url(../img/rimpido-team-bg.jpg) no-repeat center top fixed !important;
+        background-size: auto auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover !important;
+
+}
+
+#imprint h3 {
+    display: block;
+    padding: 0 0 10px 0;
+    margin: 0 0 40px 0;
+    position: relative;
+    text-align:left;
+    display: block;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2.8rem;
+    line-height: 1.375;
+    color: #fff;
+    background:url(assets/img/rimpidologo.png) no-repeat  50% 60px;
+}
+.rimpido-imprint  {
+    padding:88px 0 100px 0!important;
+    background: url(assets/img/rimpido_slide_img3.jpg) no-repeat center top fixed!important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover!important;
+  
+
+
+}
+.rimpido-imprint p{
+color: #fff;
+font-size: 20px;
+}
+.rimpido-imprint h4{
+color: orange;
+font-size: 40px;
+}
+.rimpido-imprint .parallax-bg-style:after {
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    
+}

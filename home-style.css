@@ -1,0 +1,1192 @@
+/*Home area*/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/*
+#team {
+    
+    background-image: url(../webroot/img/rimpido3.jpg) !important;
+}
+*/
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #1e1e1e;
+    border-color: #1e1e1e;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+ .card {
+    border: none;
+    background: #f1f1f1;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #ff9d00 !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #000 !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+/*//////////////////////////*/
+.home-area{
+   
+    padding-top: 120px;
+}
+/*resizing*/
+.home-area.parallax-bg-style:after {
+    opacity: 0.4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+.home-area h1{
+    color: #fff;
+font-size: 44px;
+font-weight: 500;
+margin: 0 0 25px;
+
+
+}
+.padding {
+    padding: 80px 0;
+}
+
+.parallax-bg-style {
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 1
+}
+
+.parallax-bg-style:after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.parallax-bg-4 {
+    background-image: url(../img/rimpido3.jpg);
+    /*background-color: #fff;*/
+}
+.parallax-bg-5 {
+   
+    background-color: rgb(28,18,18);
+}
+
+
+.white-title {
+    color: #fff;
+}
+
+.rimpido-hero {
+    height: 100%;
+}
+/*all rimpido-hero2 added*/
+.rimpido-hero-error{
+    height: 60vh;
+}
+
+/*Home end*/
+
+/*First Content*/
+.first-content h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.first-content h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.first-content p{
+    line-height: 1.7;
+}
+/*First Content end*/
+
+
+
+/*footer*/
+.contact-area.parallax-bg-style:after {
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+
+}
+
+
+.parallax-bg-6 {
+   background-image: url(assets/img/rimpido_contact_us.jpg);
+}
+
+.section-title {
+    font-weight: 900;
+    margin: 0 0 35px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.section-title:after {
+    
+    /*#ffc42d*/
+    background: #ff8c00 none repeat scroll 0 0;
+    bottom: -20px;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -68px;
+    position: absolute;
+    width: 135px;
+}
+
+.section-title:before {
+    background: #fff none repeat scroll 0 0;
+    border: 7px solid #ff8c00;
+    bottom: -25px;
+    content: "";
+    height: 12px;
+    left: 50%;
+    margin-left: -8px;
+    position: absolute;
+    width: 12px;
+    z-index: 1;
+}
+
+.section-content p {
+    padding: 0 105px;
+}
+.section-content {
+    margin: 0 0 50px;
+}
+
+.contact-single-info {
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    padding: 30px 0;
+}
+.contact-single-info:after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.contact-single-info i.fa {
+    color: #ffcc00;
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+/*footer end*/
+
+
+/*footer*/
+
+footer 
+{ 
+    width:100%; 
+    background-color:#263238; 
+    min-height:250px;
+     padding:10px 0px 25px 0px 
+;}
+.header-padding 
+{ padding-top:40px ;
+ margin-bottom:20px ;
+}
+footer p 
+{ 
+    font-size:13px; 
+    color:#ccc; 
+    padding-bottom:0px; 
+    margin-bottom:8px;
+}
+
+.quick-links-ul 
+{ 
+    margin:0px ;
+    list-style-type:none ;
+    font-size:14px; 
+    padding:0px 0px 10px 0px ; 
+}
+.quick-links-ul li 
+{
+    padding:0px 0px 5px 0px;
+}
+.quick-links-ul li a
+{ 
+    color:#CCC;
+}
+.quick-links-ul li a:hover
+{ color:#fff; 
+    text-decoration:none;
+}
+.fleft 
+{ 
+    float:left;
+}
+.padding-right 
+{ 
+    padding-right:10px; 
+}
+
+.navbar{background:#222222;}
+.nav-item::after{content:'';display:block;width:0px;height:2px;background:#ff9d00;transition: 0.2s;}
+.nav-item:hover::after{width:100%; color: black}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link,.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{color:#fec400;}
+.nav-link{padding:15px 5px;transition:0.2s;}
+.dropdown-item.active, .dropdown-item:active{color:#212529;}
+.dropdown-item:focus, .dropdown-item:hover{background:#fec400;color:black;}
+.nav-item .dropdown-menu a:hover{
+background:#ff9d00;
+color: #fff;
+
+}.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+.how-section1 h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 40%;
+}
+
+
+.highlight  {
+    width: 900px;
+    color: white;
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+    padding: 50px;
+
+    
+    }
+    
+.highlight img {
+    
+    float: center;
+    width: 400px;
+    height: 400px; 
+    margin-left: 32%;
+    margin-bottom: 2%;
+    margin-top: 2%
+    }
+    
+.highlight ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 1%;
+    width: 100%;
+    float: center; 
+    clear: right;
+    }
+    
+.highlight button {
+   margin-left: 1%;
+    float: right;
+    }
+
+
+    
+.highlight p {
+    text-align: justify;
+    }
+.main-container{
+    margin-left: 10%;
+    width: 100px;
+
+
+    }.highlight h2{
+        text-align: center;
+        margin-bottom: 5%;
+         color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+
+    }.card-banner {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    background-size: cover;
+    border-radius: 5px;
+}
+.card-banner .card-body {
+    background-size: cover;
+    position: relative;
+    z-index: 10;
+}
+
+
+/**********************
+/***** Services *******
+/*********************/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section{
+    padding: 60px 0;
+}
+section .section-title{
+    text-align:center;
+    color:#e98001;
+    margin-bottom:50px;
+    text-transform:uppercase;
+}
+#what-we-do{
+    background:#ffffff;
+    opacity: 0.9;
+}
+#what-we-do .card{
+    padding: 1rem!important;
+    border: none;
+    margin-bottom:1rem;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#what-we-do .card:hover{
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block{
+    padding-left: 50px;
+    position: relative;
+}
+#what-we-do .card .card-block a{
+    color: #007b5e !important;
+    font-weight:700;
+    text-decoration:none;
+}
+#what-we-do .card .card-block a i{
+    display:none;
+    
+}
+#what-we-do .card:hover .card-block a i{
+    display:inline-block;
+    font-weight:700;
+    
+}
+#what-we-do .card .card-block:before{
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #ff8c00;
+    left: 0;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#what-we-do .card .block-1:before{
+    content: "\f0e7";
+}
+#what-we-do .card .block-2:before{
+    content: "\f0eb";
+}
+#what-we-do .card .block-3:before{
+    content: "\f00c";
+}
+#what-we-do .card .block-4:before{
+    content: "\f209";
+}
+#what-we-do .card .block-5:before{
+    content: "\f0a1";
+}
+#what-we-do .card .block-6:before{
+    content: "\f218";
+}
+#what-we-do .card:hover .card-block:before{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);  
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#what-we-do .card-text, #what-we-do .h2
+{
+    color: #e98001;
+}
+#what-we-do .card-title
+{
+    color:#757371;
+}
+#what-we-do li
+{
+    color:#757371;
+    font-size: 14px;
+}
+/**********************
+/***** phrasencatalog *******
+/*********************/
+
+#phrasecontent{
+    background:#ffffff;
+    opacity: 0.9;
+}
+#phrasecontent .card{
+    padding: 1rem!important;
+    border: none;
+    margin-bottom:1rem;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#phrasecontent .card:hover{
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#phrasecontent .card .card-block{
+    padding-left: 50px;
+    position: relative;
+}
+#phrasecontent .card .card-block a{
+    color: #007b5e !important;
+    font-weight:700;
+    text-decoration:none;
+}
+#phrasecontent .card .card-block a i{
+    display:none;
+    
+}
+#phrasecontent .card:hover .card-block a i{
+    display:inline-block;
+    font-weight:700;
+    
+}
+#phrasecontent .card .card-block:before{
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #ff8c00;
+    left: 0;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#phrasecontent .card .block-1:before{
+    content: "\f0e7";
+}
+#phrasecontent .card .block-2:before{
+    content: "\f0eb";
+}
+#phrasecontent .card .block-3:before{
+    content: "\f00c";
+}
+#phrasecontent .card .block-4:before{
+    content: "\f209";
+}
+#phrasecontent .card .block-5:before{
+    content: "\f0a1";
+}
+#phrasecontent .card .block-6:before{
+    content: "\f218";
+}
+#phrasecontent .card:hover .card-block:before{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);  
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#phrasecontent .card-text, #phrasecontent .h2
+{
+    color: #e98001;
+}
+#phrasecontent .card-title
+{
+    color:#757371;
+    font-size: 40px;
+    color:#e98001;  
+ font-weight: bold;  
+}
+#phrasecontent .row
+{
+    position: center;
+}
+#phrasecontent .phrasecontentp
+{
+    padding: 5%;
+    color:#242322;
+}#phrasecontent ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 1%;
+    width: 100%;
+    float: center; 
+    clear: right;
+    font-size: 20px;
+    }
+#phrasecontent h2
+{
+ color:#e98001;  
+ font-weight: bold;  
+}
+
+
+ 
+
+/**********************
+/***** training *******
+/*********************/
+
+/***USES phrasecontent css*********/
+
+
+
+/******EHS TOOLS USES TEMPLATE*********
+/**************************************
+/**************************************/
+/* EHS tools */
+#ehstools_section{
+     background:#ffffff;
+    opacity: 0.9;
+}
+#ehstools_section p2
+{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.margin_top {
+    margin-top: 30px;
+}
+.maine_box {
+    position: relative;
+    overflow: hidden;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.price_box {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    padding: 6px 10px;
+    color: #fff;
+    font-size: 16px;
+}
+.green_bg {
+    background: #2adc71;
+}
+.orgen_bg {
+    background: #ffa500;
+}
+.maine_box .items_picher img {
+    width: 800px;
+}
+
+/* BOX ADJUSTHERE */
+
+.box_detail {
+    width: 100%;
+    background: rgba(34, 34, 34, 0.69);
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    z-index: 9;
+    bottom: 0;
+    transition: all 0.3s;
+    padding: 13px 15px 15px;
+    max-height: 115px;
+}
+.box_detail h3 {
+    color: #fff;
+    margin: 0px;
+    margin-top: 9px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    padding:2%;
+}
+.maine_box:hover .box_detail{
+    max-height: 370px;
+}
+.box_detail a, .box_detail p {
+    color: #fff;
+    padding: 2%;
+    font-size: 16px;
+}
+.maine_box:hover .box_detail a, .maine_box:hover .box_detail p {
+    display: block;
+}
+.use_detail .event_detail {
+    display: inline-block;
+    position: relative;
+}
+.use_detail {
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    right: 15px;
+    top: -30px;
+}
+
+.event_detail:hover .event_hover {
+    opacity: 1;
+    top: -55px;
+}
+.use_detail .event_detail {
+    border-radius: 50%;
+    border: 2px solid #ffa500;
+    width: 50px;
+    height: 50px;
+    background: #FFA500;
+    line-height: 45px;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .margin_reponsive {
+        margin-top: 30px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .box_detail {
+        bottom: -130px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .margin_bott {
+        margin-bottom: 30px;
+    }
+}
+
+
+/***********  MODAL   **************/
+
+ /* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modalShowDetail {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 99999; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 50%; /* Full width */
+  height: 80%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+   background:black;
+   opacity: 0.9; /* Black w/ opacity */
+   margin-left: 25%;
+   margin-top: 5%;
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+#ehstools_section .caption{
+    background:#ffffff;
+    opacity: 0.9;
+
+
+}
+/*********EHS MANUAL**********/
+/*****************************/
+/*****************************/
+/*****************************/
+
+#ehsmanual_content{
+    background:#ffffff;
+    opacity: 0.9;
+}
+#ehsmanual_content .card{
+    padding: 1rem!important;
+    border: none;
+    margin-bottom:1rem;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#ehsmanual_content .card:hover{
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#ehsmanual_content .card .card-block{
+    padding-left: 50px;
+    position: relative;
+}
+#ehsmanual_content .card .card-block a{
+    color: #007b5e !important;
+    font-weight:700;
+    text-decoration:none;
+}
+#ehsmanual_content .card .card-block a i{
+    display:none;
+    
+}
+#ehsmanual_content .card:hover .card-block a i{
+    display:inline-block;
+    font-weight:700;
+    
+}
+#ehsmanual_content .card .card-block:before{
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #ff8c00;
+    left: 0;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#ehsmanual_content .card .block-1:before{
+    content: "\f0e7";
+}
+#ehsmanual_content .card .block-2:before{
+    content: "\f0eb";
+}
+#ehsmanual_content .card .block-3:before{
+    content: "\f00c";
+}
+#ehsmanual_content .card .block-4:before{
+    content: "\f209";
+}
+#ehsmanual_content .card .block-5:before{
+    content: "\f0a1";
+}
+#ehsmanual_content .card .block-6:before{
+    content: "\f218";
+}
+#ehsmanual_content .card:hover .card-block:before{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);  
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#ehsmanual_content .card-text, #ehsmanual_content .h2
+{
+    color: #e98001;
+}
+#ehsmanual_content .card-title
+{
+    color:#757371;
+    font-size: 25px;
+    color:#e98001;  
+ font-weight: bold;  
+}
+#ehsmanual_content .row
+{
+    position: center;
+}
+#ehsmanual_content .ehscontentp
+{
+    padding: 5%;
+    color:#242322;
+}#ehsmanual_content ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 1%;
+    width: 100%;
+    float: center; 
+    clear: right;
+    font-size: 20px;
+    }
+#ehsmanual_content h2
+{
+ color:#e98001;  
+ font-weight: bold;  
+}
+
+/*********CEO PAGE*********/
+/*************************/
+
+#CEO_content{
+    background:#ffffff;
+    opacity: 0.9;
+}
+#CEO_content ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 50px;
+    width: 100%;
+    float: center; 
+    clear: right;
+    font-size: 20px;
+    }
+#CEO_content h2
+{
+ color:#e98001;  
+ font-weight: bold;  
+}#CEO_content p{
+    padding-right: 10%;
+    color: #565350;
+}
+
+
+
+
+
+
+
+body {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background:#fbfbfb;
+}
+#CEO_content .card {
+    
+    top-margin:80%;
+    left:5%;
+    /*transform:translate(-50%,-50%);*/
+    width:300px;
+    min-height:400px;
+    background:#fff;
+    box-shadow:0 20px 50px rgba(0,0,0,.1);
+    border-radius:10px;
+    transition:0.5s;
+}
+.card:hover {
+    box-shadow:0 30px 70px rgba(0,0,0,.2);
+}
+.card .box {
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    width:100%;
+}
+.card .box .img {
+    width:120px;
+    height:120px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+}
+.card .box .img img {
+    width:100%;
+    height:100%;
+}
+.card .box h2 {
+    font-size:20px;
+    color:#262626;
+    margin:20px auto;
+}
+.card .box h2 span {
+    font-size:14px;
+    background:#ed6b1f;
+    color:#fff;
+    display:inline-block;
+    padding:4px 10px;
+    border-radius:15px;'
+    height:25px;
+    width:80px;
+}
+.card .box p {
+    color:#262626;
+}
+.card .box span {
+    
+}
+.card .box ul {
+    margin:0;
+    padding:0;
+}
+.card .box ul li {
+    list-style:none;
+    float:left;
+}
+.card .box ul li a {
+    display:block;
+    color:#aaa;
+    margin:0 10px;
+    font-size:20px;
+    transition:0.5s;
+    text-align:center;
+}
+.card .box ul li:hover a {
+    color:#ed6b1f;
+    transform:rotateY(360deg);
+}
+
+
+
+/********* PRIVACY **********/
+/******************************/
+/******************************/
+
+
+#privacy_content{
+    background:#ffffff;
+    opacity: 0.9;
+}
+#privacy_content .card{
+    padding: 1rem!important;
+    border: none;
+    margin-bottom:1rem;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#privacy_content .card:hover{
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#privacy_content .card .card-block{
+    padding-left: 50px;
+    position: relative;
+}
+#privacy_content .card .card-block a{
+    color: #007b5e !important;
+    font-weight:700;
+    text-decoration:none;
+}
+#privacy_content .card .card-block a i{
+    display:none;
+    
+}
+#privacy_content .card:hover .card-block a i{
+    display:inline-block;
+    font-weight:700;
+    
+}
+#privacy_content .card .card-block:before{
+    font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #ff8c00;
+    left: 0;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#privacy_content .card .block-1:before{
+    content: "\f0e7";
+}
+#privacy_content .card .block-2:before{
+    content: "\f0eb";
+}
+#privacy_content .card .block-3:before{
+    content: "\f00c";
+}
+#privacy_content .card .block-4:before{
+    content: "\f209";
+}
+#privacy_content .card .block-5:before{
+    content: "\f0a1";
+}
+#privacy_content .card .block-6:before{
+    content: "\f218";
+}
+#privacy_content .card:hover .card-block:before{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);  
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+#privacy_content .card-text, #privacy_content .h2
+{
+    color: #e98001;
+}
+#privacy_content .card-title
+{
+    color:#757371;
+    font-size: 40px;
+    color:#e98001;  
+ font-weight: bold;  
+}
+#privacy_content .row
+{
+    position: center;
+}
+#privacy_content .contentp
+{
+    padding: 5%;
+    color:#242322;
+}#privacy_content ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    width: 100%;
+    font-size: 15px;
+    }
+#privacy_content h2
+{
+ color:#e98001;  
+ font-weight: bold;  
+}
+
